@@ -7,10 +7,9 @@
 ## Run :
 
 <code>
-
 FLASK_APP = "main.py"
+  
 flask run
-
 </code>
 
 ## Endpoints :
