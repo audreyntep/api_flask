@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+    <title>API SCRAPPING PROJECT</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, Flask, Python">
+        <meta name="author" content="Audrey Ntep">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel ="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+    </head>
+    <body>
+        <h1>API SCRAPPING PROJECT</h1>
+        <div>
+            <p>routes :</p>
+            <ul>
+                <li>/create : paramètre 'url'</li>
+                <li>/delete : paramètre 'id_url'</li>
+                <li>/read : paramètre 'id_url'</li>
+            </ul>
+        </div>
+
+
+        <script type ="text/javascript" src="{{ url_for('static', filename='js/index.js') }}"></script>
+    </body>
+</html>
